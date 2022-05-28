@@ -53,7 +53,7 @@ people.push(Person(16, "Vitalik"));
 
 
 ### 5. 함수
-####1. 함수 인자가 _ 인것은 지역변수임을 표시
+#### 1. 함수 인자가 _ 인것은 지역변수임을 표시
 ```javascript
 function eatHamburgers(string _name, uint _amount) {
 
