@@ -31,10 +31,10 @@ struct Person {
 ```
 
 ### 4. 배열
-1. 정적 배열 : uint[2] fixedArray;
-2. 동적 배열 : uint[] dynamicArray;
-3. 구조체 배열 : Person[] people;
-4. Public 배열 : getter 메소드 자동 생성(읽기 가능, 쓰기 불가)
+#### 1. 정적 배열 : uint[2] fixedArray;
+#### 2. 동적 배열 : uint[] dynamicArray;
+#### 3. 구조체 배열 : Person[] people;
+#### 4. Public 배열 : getter 메소드 자동 생성(읽기 가능, 쓰기 불가)
 ```javascript
 Person[] public people;
 ```
@@ -53,13 +53,13 @@ people.push(Person(16, "Vitalik"));
 
 
 ### 5. 함수
-1. 함수 인자가 _ 인것은 지역변수임을 표시
+####1. 함수 인자가 _ 인것은 지역변수임을 표시
 ```javascript
 function eatHamburgers(string _name, uint _amount) {
 
 }
 ```
-2. public/private
+#### 2. public/private
 - 기본적으로 public으로 선언
 - private 선언 시 함수명에 _ & 맨 마지막에
 ```javascript
@@ -68,7 +68,7 @@ function _addToArray(uint _number) private {
 }
 ```
 
-3. return
+#### 3. return
 - view 함수 : 데이터를 읽기만 하고 변경 X
 ```javascript
 function sayHello() public returns (string) {
@@ -83,7 +83,7 @@ function _multiply(uint a, uint b) private pure returns (uint) {
 }
 ```
 
-6. 이벤트
+### 6. 이벤트
 - 컨트랙트가 블록체인 상에서 특정 액션을 발생시켰을때 실행하기 위한 코드
 ```javascript
 // 이벤트를 선언한다
