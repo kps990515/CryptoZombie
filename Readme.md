@@ -1,5 +1,5 @@
 ## CryptoZombie 정리
 
 
-### 1. [1장](https://github.com/mnisdh/Android/tree/master/java/HelloJava)
-      메소드 구조, 변수 다루는 법, 변수연산 테스트, 주석종류
+### 1. [1장](https://github.com/kps990515/CryptoZombie/tree/master/1장)
+      컨트랙트, 변수, 구조체, 배열, 함수, 이벤트
