@@ -97,7 +97,7 @@ function add(uint _x, uint _y) public {
 }
 ```
 
-7. 전체 코드
+### 7. 전체 코드
 ```javascript
 pragma solidity ^0.4.19;
 //컨트랙트 선언
